@@ -1,0 +1,16 @@
+spring:
+   profiles:
+      active:
+      - dev
+
+---
+spring:
+   profiles: dev
+   application:
+      name: bbs-test-dev
+      
+---
+spring:
+   profiles: default
+   application:
+      name: bbs-test-default
